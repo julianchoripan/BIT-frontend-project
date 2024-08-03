@@ -33,7 +33,6 @@ main {
   background-color: #f3e5d8;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 15px;
   grid-template-areas:
     "A B C"
@@ -93,10 +92,24 @@ main {
 @media screen and (max-width: 769px) {
   #grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       "A B"
       "C D"
       "E F";
+  }
+}
+
+/* media query mobile */
+
+@media screen and (max-width: 480px) {
+  #grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "A"
+      "B"
+      "C"
+      "D"
+      "E"
+      "F";
   }
 }
