@@ -13,7 +13,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: xx-large;
   align-items: center;
   height: 300px;
@@ -21,6 +21,7 @@ main {
 }
 #hero h1 {
   margin-left: 5%;
+  color: white;
 }
 #hero-container h2 {
   font-size: 160%;
@@ -41,57 +42,57 @@ main {
 #grid-content-A {
   grid-area: A;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid-content-B {
   grid-area: B;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid-content-C {
   grid-area: C;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid-content-D {
   grid-area: D;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid-content-E {
   grid-area: E;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid-content-F {
   grid-area: F;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
 }
 #grid img {
   width: 100%;
   height: 225px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 #grid h2 {
   margin: 10px;
 }
 #grid ul {
-  margin: 10px 0 10px 30px;
+  margin-bottom: 10px;
 }
 
 /* media query tablet */
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   #grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
     grid-template-areas:
       "A B"
       "C D"
@@ -107,7 +108,7 @@ main {
     grid-template-areas:
       "A"
       "B"
-      "C"
+      "C" 
       "D"
       "E"
       "F";
