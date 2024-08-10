@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/general-styles.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    
+    <!-- header -->
+
+    <header>
+      <figure id="header-logo-container">
+        <img src="./media/img/logo_bitcook.png" alt="Logo BitCook" />
+      </figure>
+      <nav>
+        <a href="#">Send your recipe</a>
+        <figure id="nav-icon-container">
+          <img
+            src="https://img.icons8.com/?size=100&id=H3mmKEsuafpa&format=png&color=000000"
+            alt="Ícono modo oscuro"
+          />
+        </figure>
+      </nav>
+    </header>
+
+    <!-- main -->
+
+    <main>
+      <section id="form-container">
+        <h1>Send us your recipe!</h1>
+        <p>
+          We’d love to hear about your favorite recipes. Whether it’s a family
+          secret or a new creation, share the details with us so we can feature
+          it on our site. Please provide the recipe name, preparation time,
+          ingredients, and step-by-step instructions. Feel free to include any
+          tips or special notes. We look forward to discovering your culinary
+          delights!
+        </p>
+        <form action="">
+          <label for="recipeName">Recipe name</label>
+          <input
+            type="text"
+            id="recipeName"
+            name="recipeName"
+            placeholder="Enter recipe name..."
+          />
+          <label for="preparationTime">Preparation time</label>
+          <input
+            type="text"
+            id="preparationTime"
+            name="preparationTime"
+            placeholder="Enter preparation time..."
+          />
+          <label for="ingredients">Ingredients</label>
+          <textarea
+            name="ingredients"
+            id="ingredients"
+            name="ingredients"
+            placeholder="List ingredients..."
+          ></textarea>
+          <label for="instructions">Instructions</label>
+          <textarea
+            name="instructions"
+            id="instructions"
+            name="instructions"
+            placeholder="Write instructions..."
+          ></textarea>
+          <div id="button-container">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+      <figure id="footer-logo-container">
+        <img src="./media/img/logo_bitcook.png" alt="Logo BitCook" />
+      </figure>
+      <h4>@2024 Julianchoripan</h4>
+    </footer>
+    <script src="./scripts/bitcook-logo-redirect.js"></script>
+  </body>
+</html>

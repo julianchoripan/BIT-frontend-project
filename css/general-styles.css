@@ -63,6 +63,15 @@ td:nth-of-type(2) {
   color: #7e4333;
   font-weight: 600;
 }
+form label{
+  font-family: "DM Serif Display", serif;
+  color: #7e4333;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+textarea, input{
+  font-family: "DM Sans", sans-serif;
+}
 span {
   font-weight: 600;
 }

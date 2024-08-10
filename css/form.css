@@ -1,0 +1,54 @@
+main {
+  max-width: 800px;
+  margin: 15px auto;
+  padding: 0 15px;
+}
+#form-container{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+h1{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    border-radius: 5px;
+    border: none;
+    background-color: #DFDFDF;
+    padding: 15px;
+}
+input{
+    height: 50px;
+}
+textarea{
+    height: 125px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 125px;
+}
+form label, input, textarea{
+    margin-bottom: 15px;
+}
+#button-container button{
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #255538;
+}
+
+/* media query mobile */
+
+@media screen and (max-width: 480px){
+    #button-container button{
+        width: 65px;
+    }
+}

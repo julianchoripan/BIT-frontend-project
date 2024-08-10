@@ -1,9 +1,9 @@
-const recipe1 = document.querySelector("#grid-content-A");
-const recipe2 = document.querySelector("#grid-content-B");
-const recipe3 = document.querySelector("#grid-content-C");
-const recipe4 = document.querySelector("#grid-content-D");
-const recipe5 = document.querySelector("#grid-content-E");
-const recipe6 = document.querySelector("#grid-content-F");
+let recipe1 = document.querySelector("#grid-content-A");
+let recipe2 = document.querySelector("#grid-content-B");
+let recipe3 = document.querySelector("#grid-content-C");
+let recipe4 = document.querySelector("#grid-content-D");
+let recipe5 = document.querySelector("#grid-content-E");
+let recipe6 = document.querySelector("#grid-content-F");
 
 recipe1.addEventListener("click", () => {
     window.location.href = "recipe-1.html";
