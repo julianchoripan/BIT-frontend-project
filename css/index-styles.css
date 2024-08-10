@@ -39,38 +39,7 @@ main {
     "A B C"
     "D E F";
 }
-#grid-content-A {
-  grid-area: A;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-#grid-content-B {
-  grid-area: B;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-#grid-content-C {
-  grid-area: C;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-#grid-content-D {
-  grid-area: D;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-#grid-content-E {
-  grid-area: E;
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-#grid-content-F {
-  grid-area: F;
+.grid-content {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
