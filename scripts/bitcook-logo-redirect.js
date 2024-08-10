@@ -7,3 +7,4 @@ bitcookHeader.addEventListener("click", () => {
   bitcookFooter.addEventListener("click", () => {
     window.location.href = "index.html";
   });
+  
